@@ -9,36 +9,36 @@
 /* Begin PBXBuildFile section */
 		4B3FCB722817CF6C00CC65A8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FCB712817CF6C00CC65A8 /* Alamofire */; };
 		4B4B95FE28093B0D0082CE52 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B95FD28093B0D0082CE52 /* UIViewExtension.swift */; };
-		4B4B963C28094DC80082CE52 /* TextViewTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B963A28094DC80082CE52 /* TextViewTblCell.swift */; };
-		4B4B963D28094DC80082CE52 /* TextViewTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B963B28094DC80082CE52 /* TextViewTblCell.xib */; };
-		4B4B9650280956620082CE52 /* AlertRowTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B964E280956620082CE52 /* AlertRowTblCell.swift */; };
-		4B4B9651280956620082CE52 /* AlertRowTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B964F280956620082CE52 /* AlertRowTblCell.xib */; };
-		4B4C92702806F86E0080D29E /* SectionHeaderTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C926E2806F86E0080D29E /* SectionHeaderTblCell.swift */; };
-		4B4C92712806F86E0080D29E /* SectionHeaderTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4C926F2806F86E0080D29E /* SectionHeaderTblCell.xib */; };
+		4B57C8F628194F3300DC1736 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8EC28194F3300DC1736 /* MainVC.swift */; };
+		4B57C8F728194F3300DC1736 /* SectionHeaderTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8ED28194F3300DC1736 /* SectionHeaderTblCell.xib */; };
+		4B57C8F828194F3300DC1736 /* AlertRowTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8EE28194F3300DC1736 /* AlertRowTblCell.swift */; };
+		4B57C8F928194F3300DC1736 /* TextViewTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8EF28194F3300DC1736 /* TextViewTblCell.swift */; };
+		4B57C8FA28194F3300DC1736 /* TextFieldTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8F028194F3300DC1736 /* TextFieldTblCell.xib */; };
+		4B57C8FB28194F3300DC1736 /* TextViewTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8F128194F3300DC1736 /* TextViewTblCell.xib */; };
+		4B57C8FC28194F3300DC1736 /* SectionHeaderTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8F228194F3300DC1736 /* SectionHeaderTblCell.swift */; };
+		4B57C8FD28194F3300DC1736 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8F328194F3300DC1736 /* MainVC.xib */; };
+		4B57C8FE28194F3300DC1736 /* AlertRowTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8F428194F3300DC1736 /* AlertRowTblCell.xib */; };
+		4B57C8FF28194F3300DC1736 /* TextFieldTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8F528194F3300DC1736 /* TextFieldTblCell.swift */; };
 		4BA24A1D28182CBA008B6C24 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 4BA24A1C28182CBA008B6C24 /* SwiftyJSON */; };
 		4BA72EB228069ABA0048DD9D /* CustomObjectsSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4BA72EB128069ABA0048DD9D /* CustomObjectsSDK.docc */; };
 		4BA72EB328069ABA0048DD9D /* CustomObjectsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA72EB028069ABA0048DD9D /* CustomObjectsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BAEB0CE2806A4ED00D4ECE8 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEB0CC2806A4ED00D4ECE8 /* MainVC.swift */; };
-		4BAEB0CF2806A4ED00D4ECE8 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAEB0CD2806A4ED00D4ECE8 /* MainVC.xib */; };
-		4BAEB0F82806CCAB00D4ECE8 /* TextFieldTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAEB0F62806CCAB00D4ECE8 /* TextFieldTblCell.swift */; };
-		4BAEB0F92806CCAB00D4ECE8 /* TextFieldTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BAEB0F72806CCAB00D4ECE8 /* TextFieldTblCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B4B95FD28093B0D0082CE52 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		4B4B963A28094DC80082CE52 /* TextViewTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewTblCell.swift; sourceTree = "<group>"; };
-		4B4B963B28094DC80082CE52 /* TextViewTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewTblCell.xib; sourceTree = "<group>"; };
-		4B4B964E280956620082CE52 /* AlertRowTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertRowTblCell.swift; sourceTree = "<group>"; };
-		4B4B964F280956620082CE52 /* AlertRowTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertRowTblCell.xib; sourceTree = "<group>"; };
-		4B4C926E2806F86E0080D29E /* SectionHeaderTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderTblCell.swift; sourceTree = "<group>"; };
-		4B4C926F2806F86E0080D29E /* SectionHeaderTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionHeaderTblCell.xib; sourceTree = "<group>"; };
+		4B57C8EC28194F3300DC1736 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		4B57C8ED28194F3300DC1736 /* SectionHeaderTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderTblCell.xib; sourceTree = "<group>"; };
+		4B57C8EE28194F3300DC1736 /* AlertRowTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertRowTblCell.swift; sourceTree = "<group>"; };
+		4B57C8EF28194F3300DC1736 /* TextViewTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewTblCell.swift; sourceTree = "<group>"; };
+		4B57C8F028194F3300DC1736 /* TextFieldTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldTblCell.xib; sourceTree = "<group>"; };
+		4B57C8F128194F3300DC1736 /* TextViewTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewTblCell.xib; sourceTree = "<group>"; };
+		4B57C8F228194F3300DC1736 /* SectionHeaderTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderTblCell.swift; sourceTree = "<group>"; };
+		4B57C8F328194F3300DC1736 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		4B57C8F428194F3300DC1736 /* AlertRowTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertRowTblCell.xib; sourceTree = "<group>"; };
+		4B57C8F528194F3300DC1736 /* TextFieldTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldTblCell.swift; sourceTree = "<group>"; };
 		4BA72EAD28069ABA0048DD9D /* CustomObjectsSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomObjectsSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA72EB028069ABA0048DD9D /* CustomObjectsSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomObjectsSDK.h; sourceTree = "<group>"; };
 		4BA72EB128069ABA0048DD9D /* CustomObjectsSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CustomObjectsSDK.docc; sourceTree = "<group>"; };
-		4BAEB0CC2806A4ED00D4ECE8 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
-		4BAEB0CD2806A4ED00D4ECE8 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
-		4BAEB0F62806CCAB00D4ECE8 /* TextFieldTblCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTblCell.swift; sourceTree = "<group>"; };
-		4BAEB0F72806CCAB00D4ECE8 /* TextFieldTblCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextFieldTblCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,29 +74,21 @@
 		4BA72EAF28069ABA0048DD9D /* CustomObjectsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4B57C8EE28194F3300DC1736 /* AlertRowTblCell.swift */,
+				4B57C8F428194F3300DC1736 /* AlertRowTblCell.xib */,
+				4B57C8EC28194F3300DC1736 /* MainVC.swift */,
+				4B57C8F328194F3300DC1736 /* MainVC.xib */,
+				4B57C8F228194F3300DC1736 /* SectionHeaderTblCell.swift */,
+				4B57C8ED28194F3300DC1736 /* SectionHeaderTblCell.xib */,
+				4B57C8F528194F3300DC1736 /* TextFieldTblCell.swift */,
+				4B57C8F028194F3300DC1736 /* TextFieldTblCell.xib */,
+				4B57C8EF28194F3300DC1736 /* TextViewTblCell.swift */,
+				4B57C8F128194F3300DC1736 /* TextViewTblCell.xib */,
 				4B4B95FD28093B0D0082CE52 /* UIViewExtension.swift */,
-				4BA72EB928069AF10048DD9D /* TableViewClasses */,
 				4BA72EB028069ABA0048DD9D /* CustomObjectsSDK.h */,
 				4BA72EB128069ABA0048DD9D /* CustomObjectsSDK.docc */,
 			);
 			path = CustomObjectsSDK;
-			sourceTree = "<group>";
-		};
-		4BA72EB928069AF10048DD9D /* TableViewClasses */ = {
-			isa = PBXGroup;
-			children = (
-				4BAEB0CC2806A4ED00D4ECE8 /* MainVC.swift */,
-				4BAEB0CD2806A4ED00D4ECE8 /* MainVC.xib */,
-				4B4C926E2806F86E0080D29E /* SectionHeaderTblCell.swift */,
-				4B4C926F2806F86E0080D29E /* SectionHeaderTblCell.xib */,
-				4BAEB0F62806CCAB00D4ECE8 /* TextFieldTblCell.swift */,
-				4BAEB0F72806CCAB00D4ECE8 /* TextFieldTblCell.xib */,
-				4B4B963A28094DC80082CE52 /* TextViewTblCell.swift */,
-				4B4B963B28094DC80082CE52 /* TextViewTblCell.xib */,
-				4B4B964E280956620082CE52 /* AlertRowTblCell.swift */,
-				4B4B964F280956620082CE52 /* AlertRowTblCell.xib */,
-			);
-			path = TableViewClasses;
 			sourceTree = "<group>";
 		};
 		4BA72EC628069BA60048DD9D /* Frameworks */ = {
@@ -183,11 +175,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4C92712806F86E0080D29E /* SectionHeaderTblCell.xib in Resources */,
-				4BAEB0F92806CCAB00D4ECE8 /* TextFieldTblCell.xib in Resources */,
-				4B4B9651280956620082CE52 /* AlertRowTblCell.xib in Resources */,
-				4B4B963D28094DC80082CE52 /* TextViewTblCell.xib in Resources */,
-				4BAEB0CF2806A4ED00D4ECE8 /* MainVC.xib in Resources */,
+				4B57C8FA28194F3300DC1736 /* TextFieldTblCell.xib in Resources */,
+				4B57C8FD28194F3300DC1736 /* MainVC.xib in Resources */,
+				4B57C8FE28194F3300DC1736 /* AlertRowTblCell.xib in Resources */,
+				4B57C8FB28194F3300DC1736 /* TextViewTblCell.xib in Resources */,
+				4B57C8F728194F3300DC1736 /* SectionHeaderTblCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,13 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4B963C28094DC80082CE52 /* TextViewTblCell.swift in Sources */,
-				4B4B9650280956620082CE52 /* AlertRowTblCell.swift in Sources */,
+				4B57C8F928194F3300DC1736 /* TextViewTblCell.swift in Sources */,
 				4B4B95FE28093B0D0082CE52 /* UIViewExtension.swift in Sources */,
-				4BAEB0F82806CCAB00D4ECE8 /* TextFieldTblCell.swift in Sources */,
-				4B4C92702806F86E0080D29E /* SectionHeaderTblCell.swift in Sources */,
-				4BAEB0CE2806A4ED00D4ECE8 /* MainVC.swift in Sources */,
+				4B57C8F628194F3300DC1736 /* MainVC.swift in Sources */,
+				4B57C8FF28194F3300DC1736 /* TextFieldTblCell.swift in Sources */,
+				4B57C8F828194F3300DC1736 /* AlertRowTblCell.swift in Sources */,
 				4BA72EB228069ABA0048DD9D /* CustomObjectsSDK.docc in Sources */,
+				4B57C8FC28194F3300DC1736 /* SectionHeaderTblCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

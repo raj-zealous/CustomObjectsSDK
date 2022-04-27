@@ -2,9 +2,10 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "CustomObjectSDK"
+  
+  spec.name         = "CustomObjectsSDK"
   spec.version      = "1.0.0"
-  spec.summary      = "CustomObjectSDK uesed for dynamic UI form."
+  spec.summary      = "CustomObjectsSDK uesed for dynamic UI form."
   spec.description  = "This Framework uesed for dynamic UI form api and more objects."
   spec.homepage     = "https://github.com/raj-zealous/CustomObjectsSDK"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -12,7 +13,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
-  
+
 
   spec.author             = { "Deepak Tagadiya" => "deepak.tagadiya@zealousys.local" }
   # Or just: spec.author    = "Deepak Tagadiya"
