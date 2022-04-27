@@ -54,15 +54,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B4C926D2806F83F0080D29E /* SectionHeaderTblCell */ = {
-			isa = PBXGroup;
-			children = (
-				4B4C926E2806F86E0080D29E /* SectionHeaderTblCell.swift */,
-				4B4C926F2806F86E0080D29E /* SectionHeaderTblCell.xib */,
-			);
-			path = SectionHeaderTblCell;
-			sourceTree = "<group>";
-		};
 		4BA72EA328069ABA0048DD9D = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +85,16 @@
 		4BA72EB928069AF10048DD9D /* TableViewClasses */ = {
 			isa = PBXGroup;
 			children = (
-				4BAEB0CB2806A4CB00D4ECE8 /* MainVC */,
-				4B4C926D2806F83F0080D29E /* SectionHeaderTblCell */,
-				4BAEB0F52806CC7F00D4ECE8 /* TableCellObjects */,
+				4BAEB0CC2806A4ED00D4ECE8 /* MainVC.swift */,
+				4BAEB0CD2806A4ED00D4ECE8 /* MainVC.xib */,
+				4B4C926E2806F86E0080D29E /* SectionHeaderTblCell.swift */,
+				4B4C926F2806F86E0080D29E /* SectionHeaderTblCell.xib */,
+				4BAEB0F62806CCAB00D4ECE8 /* TextFieldTblCell.swift */,
+				4BAEB0F72806CCAB00D4ECE8 /* TextFieldTblCell.xib */,
+				4B4B963A28094DC80082CE52 /* TextViewTblCell.swift */,
+				4B4B963B28094DC80082CE52 /* TextViewTblCell.xib */,
+				4B4B964E280956620082CE52 /* AlertRowTblCell.swift */,
+				4B4B964F280956620082CE52 /* AlertRowTblCell.xib */,
 			);
 			path = TableViewClasses;
 			sourceTree = "<group>";
@@ -106,28 +104,6 @@
 			children = (
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4BAEB0CB2806A4CB00D4ECE8 /* MainVC */ = {
-			isa = PBXGroup;
-			children = (
-				4BAEB0CC2806A4ED00D4ECE8 /* MainVC.swift */,
-				4BAEB0CD2806A4ED00D4ECE8 /* MainVC.xib */,
-			);
-			path = MainVC;
-			sourceTree = "<group>";
-		};
-		4BAEB0F52806CC7F00D4ECE8 /* TableCellObjects */ = {
-			isa = PBXGroup;
-			children = (
-				4BAEB0F62806CCAB00D4ECE8 /* TextFieldTblCell.swift */,
-				4BAEB0F72806CCAB00D4ECE8 /* TextFieldTblCell.xib */,
-				4B4B963A28094DC80082CE52 /* TextViewTblCell.swift */,
-				4B4B963B28094DC80082CE52 /* TextViewTblCell.xib */,
-				4B4B964E280956620082CE52 /* AlertRowTblCell.swift */,
-				4B4B964F280956620082CE52 /* AlertRowTblCell.xib */,
-			);
-			path = TableCellObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
