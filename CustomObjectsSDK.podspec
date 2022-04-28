@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "CustomObjectsSDK"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.4"
   spec.summary      = "CustomObjectsSDK uesed for dynamic UI form."
   spec.description  = "This Framework uesed for dynamic UI form api and more objects."
   spec.homepage     = "https://github.com/raj-zealous/CustomObjectsSDK"
@@ -95,6 +95,6 @@ Pod::Spec.new do |spec|
    spec.dependency "Alamofire"
    spec.dependency "SwiftyJSON"
 
-   spec.swift_versions = ['5.3', '5.4', '5.5']
+   spec.swift_versions = "5.0"
 
 end
