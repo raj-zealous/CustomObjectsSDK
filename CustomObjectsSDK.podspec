@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
   
   spec.name         = "CustomObjectsSDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.2"
   spec.summary      = "CustomObjectsSDK uesed for dynamic UI form."
   spec.description  = "This Framework uesed for dynamic UI form api and more objects."
   spec.homepage     = "https://github.com/raj-zealous/CustomObjectsSDK"
@@ -46,7 +46,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CustomObjectsSDK/*/*.{swift,xib}"
+  spec.source_files  = "CustomObjectsSDK/*.{swift}"
+  spec.resources =  "CustomObjectsSDK/*.{xib}"
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
