@@ -95,6 +95,6 @@ Pod::Spec.new do |spec|
    spec.dependency "Alamofire"
    spec.dependency "SwiftyJSON"
 
-   spec.swift_versions = "5.0"
+   spec.swift_versions = ['5.3', '5.4', '5.5']
 
 end

@@ -31,7 +31,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Selected option" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnx-4Z-tO5">
-                                <rect key="frame" x="139" y="8" width="169" height="30"/>
+                                <rect key="frame" x="135" y="8" width="173" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="28" id="6yh-y1-DUG"/>
                                 </constraints>
@@ -53,7 +53,7 @@
                             <constraint firstAttribute="trailing" secondItem="Bio-Af-EmW" secondAttribute="trailing" id="CZE-MA-PVn"/>
                             <constraint firstItem="ANe-4U-eSR" firstAttribute="leading" secondItem="x7U-Hp-Ivq" secondAttribute="leading" constant="12" id="Dw8-6u-YZq"/>
                             <constraint firstAttribute="bottom" secondItem="Qnx-4Z-tO5" secondAttribute="bottom" constant="8" id="F3a-I9-N8w"/>
-                            <constraint firstItem="Qnx-4Z-tO5" firstAttribute="leading" secondItem="ANe-4U-eSR" secondAttribute="trailing" constant="16" id="WtN-MJ-OJ9"/>
+                            <constraint firstItem="Qnx-4Z-tO5" firstAttribute="leading" secondItem="ANe-4U-eSR" secondAttribute="trailing" constant="12" id="WtN-MJ-OJ9"/>
                             <constraint firstItem="Bio-Af-EmW" firstAttribute="top" secondItem="x7U-Hp-Ivq" secondAttribute="top" id="jkF-JO-Z9T"/>
                             <constraint firstAttribute="trailing" secondItem="Qnx-4Z-tO5" secondAttribute="trailing" constant="12" id="vwf-uD-Ycg"/>
                             <constraint firstItem="ANe-4U-eSR" firstAttribute="top" secondItem="x7U-Hp-Ivq" secondAttribute="top" constant="8" id="xpZ-6c-LVy"/>

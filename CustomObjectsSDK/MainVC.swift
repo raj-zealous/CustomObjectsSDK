@@ -11,7 +11,6 @@ import Alamofire
 
 typealias ServiceResponse = ([String: Any], Data, Error?) -> Void
 
-
 struct responseData: Decodable {
     var support: supportData
     var data: dataModal

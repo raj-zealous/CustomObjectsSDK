@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Section Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-EH-DjM">
-                                <rect key="frame" x="4" y="4" width="312" height="36"/>
+                                <rect key="frame" x="2" y="2" width="316" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,10 +30,10 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="Mhb-EH-DjM" secondAttribute="trailing" constant="4" id="G7U-pK-yvg"/>
-                            <constraint firstItem="Mhb-EH-DjM" firstAttribute="top" secondItem="wSw-ze-FEU" secondAttribute="top" constant="4" id="LiJ-ab-S5P"/>
-                            <constraint firstItem="Mhb-EH-DjM" firstAttribute="leading" secondItem="wSw-ze-FEU" secondAttribute="leading" constant="4" id="VIl-UU-JBq"/>
-                            <constraint firstAttribute="bottom" secondItem="Mhb-EH-DjM" secondAttribute="bottom" constant="4" id="uGH-Tm-SIx"/>
+                            <constraint firstAttribute="bottom" secondItem="Mhb-EH-DjM" secondAttribute="bottom" constant="2" id="GGv-CG-Ihz"/>
+                            <constraint firstItem="Mhb-EH-DjM" firstAttribute="leading" secondItem="wSw-ze-FEU" secondAttribute="leading" constant="2" id="WTS-MZ-WgB"/>
+                            <constraint firstAttribute="trailing" secondItem="Mhb-EH-DjM" secondAttribute="trailing" constant="2" id="szq-Y1-QjI"/>
+                            <constraint firstItem="Mhb-EH-DjM" firstAttribute="top" secondItem="wSw-ze-FEU" secondAttribute="top" constant="2" id="vD5-Nu-PrS"/>
                         </constraints>
                     </view>
                 </subviews>
