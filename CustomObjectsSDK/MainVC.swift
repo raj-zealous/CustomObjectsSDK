@@ -69,7 +69,6 @@ public final class MainVC: UIViewController {
        
         self.addKeyBoardObserver()
         
-        
         self.mainFormTable.register(UINib(nibName: "SectionHeaderTblCell", bundle: self.frameworkBundle), forCellReuseIdentifier: "SectionHeaderTblCell")
         self.mainFormTable.register(UINib(nibName: "TextFieldTblCell", bundle: self.frameworkBundle), forCellReuseIdentifier: "TextFieldTblCell")
         self.mainFormTable.register(UINib(nibName: "AlertRowTblCell", bundle: self.frameworkBundle), forCellReuseIdentifier: "AlertRowTblCell")
