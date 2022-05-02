@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B3C0E952820082E006C7082 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C0E942820082E006C7082 /* SwiftyJSON.swift */; };
 		4B3FCB722817CF6C00CC65A8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 4B3FCB712817CF6C00CC65A8 /* Alamofire */; };
 		4B4B95FE28093B0D0082CE52 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B95FD28093B0D0082CE52 /* UIViewExtension.swift */; };
 		4B57C8F628194F3300DC1736 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8EC28194F3300DC1736 /* MainVC.swift */; };
@@ -19,13 +20,13 @@
 		4B57C8FD28194F3300DC1736 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8F328194F3300DC1736 /* MainVC.xib */; };
 		4B57C8FE28194F3300DC1736 /* AlertRowTblCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B57C8F428194F3300DC1736 /* AlertRowTblCell.xib */; };
 		4B57C8FF28194F3300DC1736 /* TextFieldTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B57C8F528194F3300DC1736 /* TextFieldTblCell.swift */; };
-		4BA24A1D28182CBA008B6C24 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 4BA24A1C28182CBA008B6C24 /* SwiftyJSON */; };
 		4BA72EB228069ABA0048DD9D /* CustomObjectsSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 4BA72EB128069ABA0048DD9D /* CustomObjectsSDK.docc */; };
 		4BA72EB328069ABA0048DD9D /* CustomObjectsSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BA72EB028069ABA0048DD9D /* CustomObjectsSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4B3C0E932820051C006C7082 /* CustomObjects */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CustomObjects; sourceTree = "<group>"; };
+		4B3C0E942820082E006C7082 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		4B4B95FD28093B0D0082CE52 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		4B57C8EC28194F3300DC1736 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		4B57C8ED28194F3300DC1736 /* SectionHeaderTblCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SectionHeaderTblCell.xib; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BA24A1D28182CBA008B6C24 /* SwiftyJSON in Frameworks */,
 				4B3FCB722817CF6C00CC65A8 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,6 +76,7 @@
 		4BA72EAF28069ABA0048DD9D /* CustomObjectsSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4B3C0E942820082E006C7082 /* SwiftyJSON.swift */,
 				4B57C8EE28194F3300DC1736 /* AlertRowTblCell.swift */,
 				4B57C8F428194F3300DC1736 /* AlertRowTblCell.xib */,
 				4B57C8EC28194F3300DC1736 /* MainVC.swift */,
@@ -130,7 +131,6 @@
 			name = CustomObjectsSDK;
 			packageProductDependencies = (
 				4B3FCB712817CF6C00CC65A8 /* Alamofire */,
-				4BA24A1C28182CBA008B6C24 /* SwiftyJSON */,
 			);
 			productName = CustomObjectsSDK;
 			productReference = 4BA72EAD28069ABA0048DD9D /* CustomObjectsSDK.framework */;
@@ -161,7 +161,6 @@
 			mainGroup = 4BA72EA328069ABA0048DD9D;
 			packageReferences = (
 				4B3FCB702817CF6C00CC65A8 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				4BA24A1B28182CBA008B6C24 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 			);
 			productRefGroup = 4BA72EAE28069ABA0048DD9D /* Products */;
 			projectDirPath = "";
@@ -195,6 +194,7 @@
 				4B57C8F928194F3300DC1736 /* TextViewTblCell.swift in Sources */,
 				4B4B95FE28093B0D0082CE52 /* UIViewExtension.swift in Sources */,
 				4B57C8F628194F3300DC1736 /* MainVC.swift in Sources */,
+				4B3C0E952820082E006C7082 /* SwiftyJSON.swift in Sources */,
 				4B57C8FF28194F3300DC1736 /* TextFieldTblCell.swift in Sources */,
 				4B57C8F828194F3300DC1736 /* AlertRowTblCell.swift in Sources */,
 				4BA72EB228069ABA0048DD9D /* CustomObjectsSDK.docc in Sources */,
@@ -419,14 +419,6 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		4BA24A1B28182CBA008B6C24 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -434,11 +426,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4B3FCB702817CF6C00CC65A8 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
-		};
-		4BA24A1C28182CBA008B6C24 /* SwiftyJSON */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 4BA24A1B28182CBA008B6C24 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
-			productName = SwiftyJSON;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

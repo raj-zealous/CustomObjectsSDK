@@ -8,7 +8,6 @@
 import UIKit
 import Alamofire
 
-
 typealias ServiceResponse = ([String: Any], Data, Error?) -> Void
 
 struct responseData: Decodable {

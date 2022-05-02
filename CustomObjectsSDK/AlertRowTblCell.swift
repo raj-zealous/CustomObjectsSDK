@@ -27,3 +27,19 @@ class AlertRowTblCell: UITableViewCell {
     }
     
 }
+
+
+class ManufacturerModel: Codable {
+        
+    var manufacturerId: Int!
+    var name: String!
+    
+    init(fromJson json: JSON!) {
+        if json.isEmpty{
+            return
+        }
+        
+        manufacturerId = json["manufacturerId"].intValue
+        name = json["name"].stringValue
+    }
+}
